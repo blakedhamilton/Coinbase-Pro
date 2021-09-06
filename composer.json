@@ -2,6 +2,7 @@
     "name": "blakedhamilton/coinbase-pro",
     "description": "A library to interact with Coinbase Pro via API.",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Coinbase\\": "src/"
