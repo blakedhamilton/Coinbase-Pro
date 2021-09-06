@@ -1,0 +1,27 @@
+{
+    "name": "blakedhamilton/coinbase-pro",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Coinbase\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Coinbase\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Blake Hamilton",
+            "email": "blake.d.hamilton@outlook.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "require": {
+        "ratchet/pawl": "^0.3.5",
+        "guzzlehttp/guzzle": "^7.3"
+    }
+}
