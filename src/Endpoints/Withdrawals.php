@@ -31,6 +31,7 @@ final class Withdrawals implements Listable, Getable, Createable
     /**
      * https://docs.pro.coinbase.com#payment-method55
      * https://docs.pro.coinbase.com#coinbase56
+     * https://docs.pro.coinbase.com/#crypto
      */
     public function create(array $options = null)
     {
