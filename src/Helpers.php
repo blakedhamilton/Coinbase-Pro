@@ -84,7 +84,7 @@ final class Helpers
      * @param int $timestamp The request timestamp
      * @return array|string|object The response body
      */
-    public function sendRequest(string $method, string $path, array $body = null, int $timestamp = null): array|string|object
+    public function sendRequest(string $method, string $path, array $body = null, int $timestamp = null)
     {
         $timestamp = is_null($timestamp) ? time() : $timestamp;
         
